@@ -1,0 +1,67 @@
+{
+  "dataset": {
+    "patients": 40,
+    "case_units": 45,
+    "t1_post_timepoints": 186,
+    "reference_masks": 170,
+    "tumor_core_positive_studies": 169
+  },
+  "cross_sectional": {
+    "reference_lesions": 413,
+    "matched_lesions": 285,
+    "missed_lesions": 128,
+    "false_positive_lesions": 267,
+    "sensitivity_by_reference_volume": {
+      "lt_0_05_mL": [9, 54],
+      "0_05_to_0_5_mL": [128, 193],
+      "0_5_to_4_mL": [94, 107],
+      "gte_4_mL": [54, 59]
+    },
+    "median_study_dsc": 0.78,
+    "median_study_dsc_iqr": [0.54, 0.89],
+    "median_study_dsc_bootstrap_ci_95": [0.70, 0.85],
+    "mean_false_positives_per_study": 1.58,
+    "mean_false_positives_per_study_bootstrap_ci_95": [1.22, 1.99]
+  },
+  "whole_burden_longitudinal": {
+    "available_reference_pairs": 125,
+    "agreements": 92,
+    "agreement_percent": 73.6,
+    "wilson_ci_95_percent": [65.3, 80.5],
+    "median_absolute_volume_change_error_mL": 0.47,
+    "absolute_error_iqr_mL": [0.16, 1.59],
+    "strict_original_adjacent_pairs": 116,
+    "strict_agreements": 87,
+    "strict_agreement_percent": 75.0,
+    "strict_wilson_ci_95_percent": [66.4, 82.0],
+    "strict_median_absolute_error_mL": 0.52,
+    "strict_absolute_error_iqr_mL": [0.18, 1.67]
+  },
+  "modified_rano_bm_index_targets": {
+    "contingency_rows_reference_columns_model": {
+      "improved": [18, 2, 1],
+      "stable": [4, 7, 2],
+      "progressed": [0, 0, 9]
+    },
+    "agreement": [34, 43],
+    "agreement_percent": 79.1,
+    "wilson_ci_95_percent": [64.8, 88.6],
+    "category_agreements": {
+      "improved": [18, 21],
+      "stable": [7, 13],
+      "progressed": [9, 9]
+    }
+  },
+  "new_measurable_lesions": {
+    "reference_new_total": 11,
+    "insufficient_followup": 8,
+    "matched_under_trajectory_rules": 2,
+    "undetected": 1,
+    "model_only_candidates_separate_audit": 10
+  },
+  "bootstrap": {
+    "resamples": 10000,
+    "seed": 20260809,
+    "cluster_unit": "patient"
+  }
+}

@@ -1,0 +1,46 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the repository and associated manuscript."
+title: "SPIRS-P1 Cyprus Longitudinal Validation Analysis"
+type: software
+version: 1.0.0
+date-released: 2026-09-03
+license: MIT
+repository-code: "https://github.com/jjohnson12/spirs-p1-cyprus-validation"
+authors:
+  - family-names: Patel
+    given-names: "Jay B."
+  - family-names: "Quinones Alvarado"
+    given-names: Raymond
+  - family-names: Cho
+    given-names: Nicholas
+  - family-names: Colvin
+    given-names: Katelle
+  - family-names: Hanaoka
+    given-names: Mauro
+  - family-names: Tu
+    given-names: Long
+  - family-names: Marin
+    given-names: Thibault
+  - family-names: Johnson
+    given-names: "Jason M."
+preferred-citation:
+  type: article
+  title: "Longitudinal External Testing of Deep Learning Brain Metastasis Segmentation on a Public MRI Dataset"
+  authors:
+    - family-names: Patel
+      given-names: "Jay B."
+    - family-names: "Quinones Alvarado"
+      given-names: Raymond
+    - family-names: Cho
+      given-names: Nicholas
+    - family-names: Colvin
+      given-names: Katelle
+    - family-names: Hanaoka
+      given-names: Mauro
+    - family-names: Tu
+      given-names: Long
+    - family-names: Marin
+      given-names: Thibault
+    - family-names: Johnson
+      given-names: "Jason M."
+  year: 2026

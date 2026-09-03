@@ -1,0 +1,10 @@
+.DS_Store
+.venv/
+__pycache__/
+*.py[cod]
+config/paths.env
+data/
+outputs/
+*.nii
+*.nii.gz
+*.zip
